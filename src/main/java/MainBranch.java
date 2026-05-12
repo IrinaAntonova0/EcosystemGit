@@ -1,6 +1,7 @@
 public class MainBranch {
     static void main(String[] args) {
         System.out.println("MainBranch.main");
+        printB();;
     }
 
     public static void printA(){
@@ -8,6 +9,6 @@ public class MainBranch {
     }
 
     public static void printB(){
-        //todo
+        System.out.println("MainBranch.printB");
     }
 }
