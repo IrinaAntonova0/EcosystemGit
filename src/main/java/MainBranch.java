@@ -2,7 +2,8 @@ public class MainBranch {
     static void main(String[] args) {
         System.out.println("MainBranch.main");
         printA();
-        printB();;
+        printB();
+        System.out.println("Hamster in MainBranch.main");;
     }
 
     public static void printA(){
